@@ -1,1 +1,1 @@
-# mag.github.io
+MAG by Blanc nacarat

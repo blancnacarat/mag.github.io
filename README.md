@@ -1,1 +1,1 @@
-# mag.github.io
+# mag.blancnacarat.com

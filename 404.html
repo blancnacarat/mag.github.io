@@ -1,9 +1,7 @@
 <html>
-
-
-
-
 <style type="text/css">
+
+
 html, body {
   height: 100%;
   overflow: hidden;
@@ -11,7 +9,7 @@ html, body {
   color: #FF0F53;
 }
 
-.landing-page {
+.error-page {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,14 +17,14 @@ html, body {
   height: 100%;
   font-family: 'Source Sans Pro', sans-serif;
 }
-.landing-page h1 {
+.error-page h1 {
   font-size: 15vh;
   font-weight: bold;
   position: relative;
   margin: 3vh 0vh 0vh 0vh;
   padding: 0.6vh 0 0 0;
 }
-.landing-page h1:after {
+.error-page h1:after {
   content: attr(data-h1);
   position: absolute;
   top: 0;
@@ -42,7 +40,7 @@ html, body {
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
   animation: animateTextBackground 7s ease-in-out infinite;
 }
-.landing-page h1 + p {
+.error-page h1 + p {
   color: #d6d6d6;
   font-size: 8vh;
   font-weight: bold;
@@ -50,7 +48,7 @@ html, body {
   max-width: 600px;
   position: relative;
 }
-.landing-page h1 + p:after {
+.error-page h1 + p:after {
   content: attr(data-p);
   position: absolute;
   top: 0;
@@ -89,10 +87,10 @@ html, body {
   }
 }
 @media (max-width: 767px) {
-  .landing-page h1 {
+  .error-page h1 {
     font-size: 21vw;
   }
-  .landing-page h1 + p {
+  .error-page h1 + p {
     font-size: 8vw;
     line-height: 10vw;
     max-width: 70vw;
@@ -100,24 +98,18 @@ html, body {
 }
 
 </style>
-	<title>Blanc Nacarat Mag</title>
+
+
+  <title>Blanc Nacarat Mag</title>
 </head>
 <body>
 
-
-<div class="landing-page">
+<div class="error-page">
     <div>
-        <h1 data-h1="MAG">MAG</h1>
-        <h1 data-h1="by" style="margin-top: 5vh;">by</h1>
-        <h1 data-h1="BLANC NACARAT" style="margin-top: 5vh;">BLANC NACARAT</h1>
+        <h1 data-h1="404">404</h1>
+        <h1 data-h1="NOT FOUND" style="margin-top: 5vh;">NOT FOUND</h1>
     </div>
 </div>
 
 </body>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/language.js"></script>
-<script>var ml = { timelines: {}};</script>
 </html>

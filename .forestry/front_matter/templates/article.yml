@@ -1,0 +1,35 @@
+---
+label: Article
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Titre
+  description: titre de l'article
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  description: date de publication
+  config:
+    required: true
+- type: text
+  name: excerpt
+  label: Intro
+  description: phrase d'accroche
+  config:
+    required: true
+- type: file
+  name: image
+  label: Image
+  description: Image de couverture
+- type: textarea
+  name: content
+  label: Text
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
